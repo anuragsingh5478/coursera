@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto&display=swap");
+
+:root {
+  --color1: #85dcb8;
+  --color2: #41b3a3;
+  --color3: #e27d60;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color2);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: var(--color2);
+}
+#navigation-bar {
+  border-radius: 0;
+  background-color: var(--color1);
+}
+
+#company-name {
+  font-family: "Pattaya", sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+.nav-list-item {
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--color2);
+}
+
+.page-heading {
+  font-size: 3rem;
+  margin: 20px 0px;
+}
+
+#menu-card {
+  background-color: var(--color3);
+  margin: 0px 20px;
+}
+
+#menu-item-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 10px 0px;
+}
+
+#menu-item-info {
+  font-size: 1.5rem;
+}
+
+#hide-content {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  #hide-content {
+    display: block;
+  }
+}
